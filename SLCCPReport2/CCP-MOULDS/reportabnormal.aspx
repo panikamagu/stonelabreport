@@ -767,7 +767,7 @@
                <ScrollSettings Width="800" Height="300" />     
          <ClientSideEvents ActionBegin="actionBegin" ActionComplete="complete" EndAdd="endAdd" EndDelete="endDelete" EndEdit="endEdit" />
             <%-- <ClientSideEvents RowDataBound="rowDataBound" />--%>
-            <EditSettings AllowAdding="True" AllowDeleting="True" AllowEditing="true" EditMode="Dialog" />
+            <EditSettings AllowAdding="True" AllowDeleting="True" AllowEditing="true" EditMode="Normal" />
             <ToolbarSettings ShowToolbar="true" ToolbarItems="excelExport,wordExport,pdfExport">
             </ToolbarSettings>
             <Columns>
