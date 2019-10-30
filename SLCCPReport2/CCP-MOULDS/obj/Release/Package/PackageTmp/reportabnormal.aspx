@@ -711,7 +711,7 @@
                    
                     <ej:DatePicker ID="datePicker1" runat="server" DateFormat="yyyy-MM-dd">
                     </ej:DatePicker>
-                    <asp:Label ID="lbl_DateSt" runat="server"></asp:Label>
+                    <asp:Label ID="lbl_DateSt" runat="server" Visible="False"></asp:Label>
                 </div>
             </div>
             <br />
@@ -723,7 +723,7 @@
                    
                     <ej:DatePicker ID="datePicker" runat="server" DateFormat="yyyy-MM-dd">
                     </ej:DatePicker>
-                    <asp:Label ID="lbl_DateEn" runat="server"></asp:Label>
+                    <asp:Label ID="lbl_DateEn" runat="server" Visible="False"></asp:Label>
                 </div>
             </div>
             <br />
@@ -734,7 +734,7 @@
     </div>
 
      <div class="row">
-                <div class="col-md-1">
+                <div class="col-md-1" style="left: -2px; top: 0px">
                     <label>แผนก</label>
                 </div>
                 <div class="col-md-3">
@@ -767,7 +767,7 @@
                <ScrollSettings Width="800" Height="300" />     
          <ClientSideEvents ActionBegin="actionBegin" ActionComplete="complete" EndAdd="endAdd" EndDelete="endDelete" EndEdit="endEdit" />
             <%-- <ClientSideEvents RowDataBound="rowDataBound" />--%>
-            <EditSettings AllowAdding="True" AllowDeleting="True" AllowEditing="true" EditMode="Dialog" />
+            <EditSettings AllowAdding="True" AllowDeleting="True" AllowEditing="true" EditMode="Normal" />
             <ToolbarSettings ShowToolbar="true" ToolbarItems="excelExport,wordExport,pdfExport">
             </ToolbarSettings>
             <Columns>
@@ -802,7 +802,7 @@
         </ej:Grid>
 
 
-        <%--</asp:Panel>--%>--%>
+        <%--</asp:Panel>--%>
 
        <%-- <script type="text/javascript">
             function rowDataBound(args) {

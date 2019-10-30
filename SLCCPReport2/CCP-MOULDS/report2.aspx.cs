@@ -328,7 +328,7 @@ namespace CCP_MOULDS
 
         private void FN_Update(string DocId ,string Text)
         {
-            string sqlbb1 = "update ViewRepairHistories set RemarkText1 = @RemarkText1 where RepairJobId = '" + DocId + "' ";
+            string sqlbb1 = "update RepairHistories set RemarkText1 = @RemarkText1 where RepairJobId = '" + DocId + "' ";
             SqlParameterCollection para = new SqlCommand().Parameters;
             para.AddWithValue("RemarkText1", SqlDbType.VarChar).Value = Text;
 

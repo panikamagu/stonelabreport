@@ -106,7 +106,7 @@ namespace CCP_MOULDS
                             string RootCause = ds_s.Tables["ViewRepairHistories"].Rows[i]["RootCause"].ToString();
                             string Solution = ds_s.Tables["ViewRepairHistories"].Rows[i]["Solution"].ToString();
                             string Engineer = ds_s.Tables["ViewRepairHistories"].Rows[i]["Engineer"].ToString();
-                            string RemarkText2 = ds_s.Tables["ViewRepairHistories"].Rows[i]["RemarkText1"].ToString();
+                            string RemarkText2 = ds_s.Tables["ViewRepairHistories"].Rows[i]["RemarkText2"].ToString();
                             #endregion
 
                             string ReturnDate1 = ds_s.Tables["ViewRepairHistories"].Rows[i]["ReturnDate"].ToString();
@@ -330,7 +330,7 @@ namespace CCP_MOULDS
 
         private void FN_Update(string DocId, string Text)
         {
-            string sqlbb1 = "update ViewRepairHistories set RemarkText2 = @RemarkText2 where RepairJobId = '" + DocId + "' ";
+            string sqlbb1 = "update RepairHistories set RemarkText2 = @RemarkText2 where RepairJobId = '" + DocId + "' ";
             SqlParameterCollection para = new SqlCommand().Parameters;
             para.AddWithValue("RemarkText2", SqlDbType.VarChar).Value = Text;
 

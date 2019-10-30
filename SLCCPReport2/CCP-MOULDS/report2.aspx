@@ -38,34 +38,34 @@
 
                          <script>
 
-        //bind below onClick action to button
-        function onClick() {
+        ////bind below onClick action to button
+        //function onClick() {
 
-            //create instance for datePicker.
-            // only after control creation we can get dateObj otherwise it throws exception.
-            var dateObj = $("#datePicker").ejDatePicker('instance');
-            dateObj.option('locale'); //returns the culture in string
-            dateObj.option('dateFormat');// returns the date Format in string
+        //    //create instance for datePicker.
+        //    // only after control creation we can get dateObj otherwise it throws exception.
+        //    var dateObj = $("#datePicker").ejDatePicker('instance');
+        //    dateObj.option('locale'); //returns the culture in string
+        //    dateObj.option('dateFormat');// returns the date Format in string
 
-            ////set value using date object
-            //dateObj.option('value', new Date());
+        //    ////set value using date object
+        //    //dateObj.option('value', new Date());
 
           
-                        }
+        //                }
 
-                        function onClick1() {
+        //                function onClick1() {
 
-                            //create instance for datePicker.
+        //                    //create instance for datePicker.
                          
-                            var dateObj1 = $("#datePicker1").ejDatePicker('instance');
-                            dateObj1.option('locale'); //returns the culture in string
-                            dateObj1.option('dateFormat');// returns the date Format in string
+        //                    var dateObj1 = $("#datePicker1").ejDatePicker('instance');
+        //                    dateObj1.option('locale'); //returns the culture in string
+        //                    dateObj1.option('dateFormat');// returns the date Format in string
 
-                            ////set value using date object
-                            //dateObj.option('value', new Date());
+        //                    ////set value using date object
+        //                    //dateObj.option('value', new Date());
 
 
-                        }
+        //                }
   
     </script>
                 </div>
