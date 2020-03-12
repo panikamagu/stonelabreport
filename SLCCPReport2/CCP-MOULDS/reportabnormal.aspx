@@ -761,10 +761,15 @@
       <div id="scroll"></div> Height="250px" --%>
     
   
+             <br />
+                   <br />
+         <asp:Label ID="lbl_num" runat="server"></asp:Label>
+               <br />
+             <br />
   
         <ej:Grid ID="Grid1" runat="server" AllowScrolling="true"  AllowPaging="false" OnServerEditRow="Grid1_ServerEditRow" OnServerExcelExporting="Grid1_ServerExcelExporting" OnServerPdfExporting="Grid1_ServerPdfExporting" OnServerWordExporting="Grid1_ServerWordExporting" Width="2500px" AllowFiltering="True" AllowSorting="True" AllowTextWrap="True"  ><%--Height="100"  AllowScrolling="true"--%>
             <textwrapsettings wrapmode="Content" />
-               <ScrollSettings Width="800" Height="300" />     
+               <ScrollSettings Width="800"/>     
          <ClientSideEvents ActionBegin="actionBegin" ActionComplete="complete" EndAdd="endAdd" EndDelete="endDelete" EndEdit="endEdit" />
             <%-- <ClientSideEvents RowDataBound="rowDataBound" />--%>
             <EditSettings AllowAdding="True" AllowDeleting="True" AllowEditing="true" EditMode="Normal" />

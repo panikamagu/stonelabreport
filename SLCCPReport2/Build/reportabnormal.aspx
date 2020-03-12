@@ -711,7 +711,7 @@
                    
                     <ej:DatePicker ID="datePicker1" runat="server" DateFormat="yyyy-MM-dd">
                     </ej:DatePicker>
-                    <asp:Label ID="lbl_DateSt" runat="server"></asp:Label>
+                    <asp:Label ID="lbl_DateSt" runat="server" Visible="False"></asp:Label>
                 </div>
             </div>
             <br />
@@ -723,7 +723,7 @@
                    
                     <ej:DatePicker ID="datePicker" runat="server" DateFormat="yyyy-MM-dd">
                     </ej:DatePicker>
-                    <asp:Label ID="lbl_DateEn" runat="server"></asp:Label>
+                    <asp:Label ID="lbl_DateEn" runat="server" Visible="False"></asp:Label>
                 </div>
             </div>
             <br />
@@ -734,7 +734,7 @@
     </div>
 
      <div class="row">
-                <div class="col-md-1">
+                <div class="col-md-1" style="left: -2px; top: 0px">
                     <label>แผนก</label>
                 </div>
                 <div class="col-md-3">
@@ -761,13 +761,18 @@
       <div id="scroll"></div> Height="250px" --%>
     
   
+             <br />
+                   <br />
+         <asp:Label ID="lbl_num" runat="server"></asp:Label>
+               <br />
+             <br />
   
         <ej:Grid ID="Grid1" runat="server" AllowScrolling="true"  AllowPaging="false" OnServerEditRow="Grid1_ServerEditRow" OnServerExcelExporting="Grid1_ServerExcelExporting" OnServerPdfExporting="Grid1_ServerPdfExporting" OnServerWordExporting="Grid1_ServerWordExporting" Width="2500px" AllowFiltering="True" AllowSorting="True" AllowTextWrap="True"  ><%--Height="100"  AllowScrolling="true"--%>
             <textwrapsettings wrapmode="Content" />
-               <ScrollSettings Width="800" Height="300" />     
+               <ScrollSettings Width="800"/>     
          <ClientSideEvents ActionBegin="actionBegin" ActionComplete="complete" EndAdd="endAdd" EndDelete="endDelete" EndEdit="endEdit" />
             <%-- <ClientSideEvents RowDataBound="rowDataBound" />--%>
-            <EditSettings AllowAdding="True" AllowDeleting="True" AllowEditing="true" EditMode="Dialog" />
+            <EditSettings AllowAdding="True" AllowDeleting="True" AllowEditing="true" EditMode="Normal" />
             <ToolbarSettings ShowToolbar="true" ToolbarItems="excelExport,wordExport,pdfExport">
             </ToolbarSettings>
             <Columns>
@@ -802,7 +807,7 @@
         </ej:Grid>
 
 
-        <%--</asp:Panel>--%>--%>
+        <%--</asp:Panel>--%>
 
        <%-- <script type="text/javascript">
             function rowDataBound(args) {

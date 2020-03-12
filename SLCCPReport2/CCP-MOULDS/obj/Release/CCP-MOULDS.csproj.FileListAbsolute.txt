@@ -1282,7 +1282,6 @@ D:\PROJECT MAY\1. CCPSTONELAB\GITSLREPORT\stonelabreport\SLCCPReport2\CCP-MOULDS
 D:\PROJECT MAY\1. CCPSTONELAB\GITSLREPORT\stonelabreport\SLCCPReport2\CCP-MOULDS\bin\Microsoft.AspNet.FriendlyUrls.xml
 D:\PROJECT MAY\1. CCPSTONELAB\GITSLREPORT\stonelabreport\SLCCPReport2\CCP-MOULDS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\PROJECT MAY\1. CCPSTONELAB\GITSLREPORT\stonelabreport\SLCCPReport2\CCP-MOULDS\obj\Release\CCP-MOULDS.csprojAssemblyReference.cache
-D:\PROJECT MAY\1. CCPSTONELAB\GITSLREPORT\stonelabreport\SLCCPReport2\CCP-MOULDS\obj\Release\CCP-MOULDS.csproj.CoreCompileInputs.cache
 D:\PROJECT MAY\1. CCPSTONELAB\GITSLREPORT\stonelabreport\SLCCPReport2\CCP-MOULDS\obj\Release\CCP-MOULDS.csproj.CopyComplete
 D:\PROJECT MAY\1. CCPSTONELAB\GITSLREPORT\stonelabreport\SLCCPReport2\CCP-MOULDS\obj\Release\CCP-MOULDS.dll
 D:\PROJECT MAY\1. CCPSTONELAB\GITSLREPORT\stonelabreport\SLCCPReport2\CCP-MOULDS\obj\Release\CCP-MOULDS.pdb

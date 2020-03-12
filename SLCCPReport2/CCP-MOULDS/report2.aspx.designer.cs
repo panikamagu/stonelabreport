@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CCP_MOULDS {
-    
-    
-    public partial class report2 {
-        
+namespace CCP_MOULDS
+{
+
+
+    public partial class report2
+    {
+
         /// <summary>
         /// lbldays control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace CCP_MOULDS {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lbldays;
-        
+
         /// <summary>
         /// datePicker1 control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace CCP_MOULDS {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::Syncfusion.JavaScript.Web.DatePicker datePicker1;
-        
+
         /// <summary>
         /// lbl_DateSt control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace CCP_MOULDS {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lbl_DateSt;
-        
+
         /// <summary>
         /// datePicker control.
         /// </summary>
@@ -47,7 +49,7 @@ namespace CCP_MOULDS {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::Syncfusion.JavaScript.Web.DatePicker datePicker;
-        
+
         /// <summary>
         /// lbl_DateEn control.
         /// </summary>
@@ -56,7 +58,7 @@ namespace CCP_MOULDS {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lbl_DateEn;
-        
+
         /// <summary>
         /// cmb_dep control.
         /// </summary>
@@ -65,7 +67,7 @@ namespace CCP_MOULDS {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::Syncfusion.JavaScript.Web.ComboBox cmb_dep;
-        
+
         /// <summary>
         /// Button1 control.
         /// </summary>
@@ -74,7 +76,7 @@ namespace CCP_MOULDS {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button1;
-        
+
         /// <summary>
         /// lbl_mess control.
         /// </summary>
@@ -83,7 +85,16 @@ namespace CCP_MOULDS {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lbl_mess;
-        
+
+        /// <summary>
+        /// lbl_num control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbl_num;
+
         /// <summary>
         /// Grid1 control.
         /// </summary>
@@ -92,7 +103,7 @@ namespace CCP_MOULDS {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::Syncfusion.JavaScript.Web.Grid Grid1;
-        
+
         /// <summary>
         /// Button2 control.
         /// </summary>
@@ -101,7 +112,7 @@ namespace CCP_MOULDS {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button2;
-        
+
         /// <summary>
         /// lbl_save control.
         /// </summary>

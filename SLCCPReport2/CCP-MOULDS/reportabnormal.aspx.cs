@@ -62,6 +62,7 @@ namespace CCP_MOULDS
                 long row = ds_s.Tables[0].Rows.Count;
                 if (row != 0)
                 {
+                   
                     for (int i = 0; i < row; i++)
                     {
                         string ReturnDate = ds_s.Tables["ViewRepairHistories"].Rows[i]["ReturnDate"].ToString();
@@ -120,6 +121,13 @@ namespace CCP_MOULDS
                             order.Add(new Ordersl(RepairJobId, InternalSerial, ToolName, Problem, InformByFullname, InformDate, Remark, RepairTagId, RepairDangerTagId, ReturnDate1, RepairType, RatingScore, UserComment, CommentBy, FailureCode, FailureDescriptionEng, FailureDescriptionTha, RepairCode, RepairDescriptionEng, RepairDescriptionTha, RootCause, Solution, Engineer, RemarkText3));
                         }
                     }
+
+                    lbl_num.Text = "จำนวนทั้งหมด " + order.Count.ToString() + " รายการ";
+                }
+                else
+                {
+
+                    lbl_num.Text = "";
                 }
 
             }

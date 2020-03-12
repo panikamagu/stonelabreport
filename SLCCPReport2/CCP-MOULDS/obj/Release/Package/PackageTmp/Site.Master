@@ -6,7 +6,7 @@
 <head runat="server">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %>CCP STONELAB</title>
+    <title><%: Page.Title %>CCP</title>
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
@@ -33,6 +33,7 @@
                 <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
                 <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
                 <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+               
                 <asp:ScriptReference Name="WebFormsBundle" />
                 <%--Site Scripts--%>
             </Scripts>
@@ -51,10 +52,10 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/report2">ไม่ได้ซ่อมเกินเวลา</a></li>
+                   <%--     <li><a runat="server" href="~/Fileuploadstock">Fileuploadstock</a></li>--%>
                         <li><a runat="server" href="~/reportcomment">ไม่ได้ประเมินเกินเวลา</a></li>
                           <li><a runat="server" href="~/reportabnormal">รายการผิดปกติ</a></li>
-                        <li><a runat="server" href="~/reportma">MA</a></li>
+                 <%--       <li><a runat="server" href="~/reportma">MA</a></li>--%>
                     </ul>
                 </div>
             </div>

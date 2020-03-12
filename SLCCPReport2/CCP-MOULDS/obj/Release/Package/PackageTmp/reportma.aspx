@@ -105,7 +105,27 @@
           <ej:TreeGridColumn HeaderText="RemarkText" Field="RemarkText"  AllowEditing="true"/>
 		</columns>            
 	</ej:TreeGrid>
+                 <ej:TreeGrid runat="server" ID="TreeGrid1"
+                 ChildMapping="Children" TreeColumnIndex="1" AllowTextWrap="True" DetailsRowHeight="150"
+                 AllowSorting="True" AllowSearching="True" AllowFiltering="True"
+                 ActionComplete="actionComplete" IdMapping="Id" ParentIdMapping="ParentId" IsResponsive="true"
+                 AllowSelection="False">
 
+	<%--  <EditSettings AllowEditing="true" EditMode="DialogEditing"/>   --%>
+     <ToolbarSettings ShowToolbar="true" ToolbarItems="add,edit,cancel,excelExport,pdfExport">
+            </ToolbarSettings>	
+     <columns>
+		    <ej:TreeGridColumn HeaderText="เลขที่ครุภัณฑ์" Field="InternalSerial" Width="100" AllowEditing="false"/>
+			<ej:TreeGridColumn HeaderText="หมายเหตุของ Tool" Field="ToolName" Width="200" AllowEditing="false"/>
+			<ej:TreeGridColumn HeaderText="ชื่อ Tool" Field="ToolRemark" Width="200" AllowEditing="false"/>
+			<ej:TreeGridColumn HeaderText="วันที่ทำจริง" Field="Actualdate"  Format="{0:MM-dd-yyyy HH:mm:ss}" Width="120" AllowEditing="false"/>
+            <ej:TreeGridColumn HeaderText="ผู้ที่ Submit" Field="SubmitBy" Width="80" AllowEditing="false"/>
+            <ej:TreeGridColumn HeaderText="รายการผ่าน" Field="NumPass" Width="80" AllowEditing="false"/>
+            <ej:TreeGridColumn HeaderText="Delay" Field="Delay" Width="45" AllowEditing="false"/>
+            <ej:TreeGridColumn HeaderText="Remark" Field="Remark" Width="60" AllowEditing="true"/>
+          <ej:TreeGridColumn HeaderText="RemarkText" Field="RemarkText"  AllowEditing="true"/>
+		</columns>            
+	</ej:TreeGrid>
 
             
 

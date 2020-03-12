@@ -122,6 +122,12 @@ namespace CCP_MOULDS
                         }
                     }
 
+                    lbl_num.Text = "จำนวนทั้งหมด " + order.Count.ToString() + " รายการ";
+                }
+                else
+                {
+
+                    lbl_num.Text = "";
                 }
 
             }

@@ -93,18 +93,19 @@
 
             <div style="font-size: large">
                  </div>
+               <br />
+               <br />
+              <asp:Label ID="lbl_num" runat="server"></asp:Label>
               <br />
-   
+              <br />
       
     <div>
-    <%--<asp:Panel ID="Panel1" runat="server" ScrollBars="Auto" HorizontalAlign="Center" Height="400">--%> 
-       <%-- AllowTextWrap="true"
-      <div id="scroll"></div> Height="250px" --%>
+        <%-- <ClientSideEvents RowDataBound="rowDataBound" />--%>       <%--   <ej:Column Field="MOULDTHICKNESS" HeaderText="ความหนาMOULD" Width="130" />--%>
   
   
         <ej:Grid ID="Grid1" runat="server" AllowScrolling="true" AllowFiltering="True" AllowPaging="false" AllowSorting="True" AllowTextWrap="True" OnServerEditRow="Grid1_ServerEditRow" OnServerExcelExporting="Grid1_ServerExcelExporting" OnServerPdfExporting="Grid1_ServerPdfExporting" OnServerWordExporting="Grid1_ServerWordExporting" Width="2500px">
         
-             <ScrollSettings Width="800" Height="300" />     
+             <ScrollSettings Width="800"/>     
             <%--Height="100"  AllowScrolling="true"--%>
             <textwrapsettings wrapmode="Content" />
             <ClientSideEvents ActionBegin="actionBegin" ActionComplete="complete" EndAdd="endAdd" EndDelete="endDelete" EndEdit="endEdit" />
@@ -144,7 +145,7 @@
 
 
 
-        <%--</asp:Panel>--%>
+        <%--     Format="{0:C}"--%>
 
         <script type="text/javascript">
             //function rowDataBound(args) {
